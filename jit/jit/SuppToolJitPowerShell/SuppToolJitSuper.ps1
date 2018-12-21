@@ -1,0 +1,2 @@
+Import-Module $PSScriptRoot\JITShell\JITShell.dll
+$id = New-JITRequest -env product -src TFS:RD -wid 1924273 -Justification "*~*~* NEED ACCESS TO SUPPORT CUSTOMERS | SUBMISSION VIA .PS1 *~*~*" -rtype ElevatedSGs -set "TargetSystem=VSTS-CSSAdminTool&Scenario=JIT-CSSAdminTool-HighPrivileges" -AccessLevel Member -ver 2015-09-07.1.0
